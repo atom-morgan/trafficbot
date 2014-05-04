@@ -1,0 +1,14 @@
+inResponse =
+  {
+    'Tb': '',
+    'routes': 
+      [
+        {
+          'bounds': '',
+          'legs': []
+        },
+        {},
+        {}
+      ],
+    'status': '',
+  }

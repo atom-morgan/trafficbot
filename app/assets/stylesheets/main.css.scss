@@ -1,0 +1,110 @@
+/* Resets */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; /* Needed for mobile WebKit */
+    -moz-box-sizing: border-box; /* Needed for Firefox */
+    box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+
+  background: #F2F2F2;
+}
+
+#clear {
+  clear: both;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+}
+
+#maps-container {
+  height: 50%;
+  width: 60%;
+  position: relative;
+  margin: 5% auto 0 auto;
+}
+
+#directions-panel {
+  width: 40%;
+  height: 100%;
+  position: relative;
+  float: left;
+
+  overflow: auto;
+  p {
+    font-size: 1em;
+  }
+}
+
+#map-canvas {
+  height: 100%;
+  width: 60%;
+
+  position: relative;
+  float: left;
+  margin: 0 auto 0 auto;
+}
+
+#panel {
+  height: 10%;
+  width: 45%;
+  margin: 2% auto 0 auto;
+
+  position: relative;
+}
+
+#panel div:nth-child(1) {
+  width: 40%;
+  float: left;
+  position: relative;
+  p {
+    margin-left: 20%;
+    float: left;
+  }
+  select {
+   float: right; 
+  }
+  input {
+    float: left;
+  }
+}
+
+#panel div:nth-child(2) {
+  width: 40%;
+  float: left;
+  position: relative;
+  p {
+    float: left;
+    margin-left: 10%;
+  }
+  select {
+    float: left;
+  }
+  input {
+    float: left;
+  }
+}
+
+#panel div:nth-child(3) {
+  width: 20%;
+  float: left;
+  position: relative;
+}
+

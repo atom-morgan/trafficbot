@@ -3,12 +3,14 @@
 <head>
   <title>Trafficbot</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAw9wuMG5CJpf51g01GOOXBgGm5nOKKaXQ&sensor=true' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+
+  <%= yield %>
 
 </body>
 </html>

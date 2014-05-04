@@ -38,3 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'gmaps4rails', '~> 1.5.6'
+
+gem 'underscore-rails', '~> 1.6.0'
+
+gem 'sprockets-rails'
